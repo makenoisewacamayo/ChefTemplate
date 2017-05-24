@@ -18,8 +18,5 @@ platforms:
 suites:
   - name: default
     run_list:
-    - recipe[wordpressCookbookDemo::default]
+    - recipe[template::default]
     attributes:
-      wordpress:
-        db:
-          host: 123.4.7.5
