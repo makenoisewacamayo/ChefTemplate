@@ -1,0 +1,52 @@
+# EDITORS #
+###########
+*#
+.#*
+\#*#
+*~
+*.sw[a-z]
+*.bak
+REVISION
+TAGS*
+tmtags
+*_flymake.*
+*_flymake
+*.tmproj
+.project
+.settings
+mkmf.log
+*.un~
+pkg/
+.idea/
+
+## COMPILED ##
+##############
+a.out
+*.o
+*.pyc
+*.so
+*.com
+*.class
+*.dll
+*.exe
+*/rdoc/
+
+
+
+# Berkshelf #
+############
+.vagrant
+/cookbooks
+Berksfile.lock
+
+## Bundler ##
+############
+Gemfile.lock
+bin/*
+.bundle/*
+
+# kitchen #######
+############
+.kitchen/
+.kitchen.local.yml
+Dockerfile*
